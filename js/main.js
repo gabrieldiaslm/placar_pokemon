@@ -6,19 +6,19 @@ let currentFilter = "todos"; // Lembra qual filtro está ativo no momento
 
 // Mapeamento: Nome do Pokemon (Planilha Col B) -> Sprite Local (images/src/)
 const POKEMON_SPRITES = {
-  blastoise: "/src/blastoise.png",
-  bulbasaur: "/src/bulbasaur.png",
-  charizard: "/src/charizard.png",
-  charmander: "/src/charmander.png",
-  charmeleon: "/src/charmeleon.png",
-  ivysaur: "/src/ivysaur.png",
-  squirtle: "/src/squirtle.png",
-  venusaur: "/src/venusaur.png",
-  wartortle: "/src/wartortle.png",
+  blastoise: "../src/blastoise.png",
+  bulbasaur: "../src/bulbasaur.png",
+  charizard: "../src/charizard.png",
+  charmander: "../src/charmander.png",
+  charmeleon: "../src/charmeleon.png",
+  ivysaur: "../src/ivysaur.png",
+  squirtle: "../src/squirtle.png",
+  venusaur: "../src/venusaur.png",
+  wartortle: "../src/wartortle.png",
 
-  blastoisemvp: "/src/blastoise.gif",
-  bulbasaurmvp: "/src/bulbasaur.gif",
-  charizardmvp: "/src/charizard.gif",
+  blastoisemvp: "../src/blastoise.gif",
+  bulbasaurmvp: "./src/bulbasaur.gif",
+  charizardmvp: "../src/charizard.gif",
 };
 
 // Função principal que busca e organiza tudo
