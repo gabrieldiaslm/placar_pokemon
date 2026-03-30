@@ -32,7 +32,7 @@ body::before {
     height: 100%;
 
     /* Coloque o caminho do seu GIF aqui. Recomendo criar uma pasta images/bg/ */
-    background-image: url('/src/bgpkmn.gif');
+    background-image: url('../src/bgpkmn.gif');
     background-size: cover;
     /* Faz o GIF cobrir a tela inteira */
     background-position: center;
