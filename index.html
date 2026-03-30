@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar Pokémon</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>RANKING POKÉMON</h1>
+        <p>feito por Gabriel Dias</p>
+    </header>
+
+    <main>
+        <section class="hardcoded-student">
+            <img src="/src/haunter.gif" alt="Haunter" class="destaque-img">
+            <h2 class="mvp"> MVP </h2>
+            <p class="score">9999 pts</p>
+        </section>
+
+        <section class="ranking">
+            <h2>RANKING</h2>
+
+            <div class="filters-container">
+                <button id="btn-todos" class="filter-btn active" onclick="filterRanking('todos')">Todos</button>
+                <button id="btn-charmander" class="filter-btn charmander" onclick="filterRanking('charmander')">Charmander</button>
+                <button id="btn-bulbasaur" class="filter-btn bulbasaur" onclick="filterRanking('bulbasaur')">Bulbasaur</button>
+                <button id="btn-squirtle" class="filter-btn squirtle" onclick="filterRanking('squirtle')">Squirtle</button>
+            </div>
+            <table id="rank-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Aluno</th>
+                        <th scope="col">Pokémon atual</th>
+                        <th scope="col">Pokémon inicial</th>
+                        <th scope="col">Pontuação total</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <tr><td colspan="4" style="text-align: center;">Analisando Pokédex...</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
